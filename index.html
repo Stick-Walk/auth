@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stick Walk REG</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="pioss.js"></script>
+</head>
+<body>
+    <div class="form-container">
+        <form id="registerForm">
+            <h2>Register</h2>
+
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="input-group">
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" id="confirmPassword" name="confirmPassword" required>
+            </div>
+
+            <!-- CAPTCHA Section -->
+            <div class="input-group">
+                <label for="captchaImage">Type the text you see:</label>
+                <div class="captcha-box">
+                    <img src="" alt="CAPTCHA" id="captchaImage">
+                    <h6>gago captcha</h6>
+                </div>
+            </div>
+
+            <div class="input-group">
+                <input type="text" id="captchaInput" name="captchaInput" required>
+            </div>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
