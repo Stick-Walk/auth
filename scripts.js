@@ -1,7 +1,7 @@
 var id = null;
 
 PlayerIO.quickConnect.simpleGetCaptcha(
-    "11091407022114140518-onck7btxpuuwxwsxwniidw", 
+    "stick-link-75uokqwdak2qix0siinhig", 
     300,                                    //Image width
     50,                                    //Image height
     function (captcha) {
@@ -29,7 +29,7 @@ document.getElementById('registerForm').addEventListener('submit', function (e) 
     }
 
     PlayerIO.authenticate(
-        "11091407022114140518-onck7btxpuuwxwsxwniidw",
+        "stick-link-75uokqwdak2qix0siinhig",
         "public",                                   //A connection with the authentication type SimpleUsers
         {
             register: "true",
